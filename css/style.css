@@ -1,0 +1,441 @@
+/*---------- Fonts import ----------*/
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Jura&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: white;
+}
+/*---------- Header ----------*/
+.header {
+    display: inline-flex; 
+}
+.logo {
+    margin: 25px 0px 0px 370px;
+}
+.logo img {
+    width: 100px;
+}
+.head {
+    margin: 50px 0px 0px 5px;
+}
+.head h1 {
+    color: rgb(15, 117, 189);
+    font-size: 22px;
+    font-weight: bold;
+}
+.head p {
+    color: rgb(15, 117, 189);
+    font-size: 14px;
+}
+.call {
+    margin: 47px 0px 0px 546px;
+    display: inline-flex;
+    color: rgb(66, 168, 240);
+}
+.call i {
+    transform: rotate(-36deg);
+    margin: -7px 0px 0px 22px;
+    font-size: 25px;
+}
+.call p {
+    margin: 5px 0px 0px -15px;
+    font-size: 18px;
+}
+.search {
+    margin: 42px 0px 0px 25px;
+    color: rgb(66, 168, 240);
+}
+.search input {
+    padding: 10px 35px 10px 8px;
+    border: 2px solid rgba(129, 120, 120, 0.65);
+    border-radius: 6px;
+    outline: none;
+}
+.search i {
+    margin-left: -25px;
+}
+.search i:hover {
+    cursor: pointer;
+}
+/*---------- Manu Bar ----------*/
+.navbar {
+    width: 100%;
+    background: rgb(74, 76, 78);
+    display: inline-flex;
+}
+.nav {
+    margin: 20px 0px 0px 380px;
+}
+.nav nav {}
+.nav nav ul {}
+.nav nav ul li {
+    display: inline;
+}
+.nav nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 28px;
+    padding: 4px 10px;
+    border-right: 2px solid rgba(151, 133, 133, 0.85);
+    color: white;
+}
+.nav nav ul li a:hover {
+    color: rgb(66, 168, 240);
+    transition: all 0.3s ease 0s;
+}
+.social_icon {
+    margin: 20px 354px 20px 630px;
+}
+.social_icon a {}
+.social_icon a i {
+    font-size: 18px;
+    margin: 0px 0px 0px 5px;
+    padding: 5px;
+    border: 2px solid rgba(178, 149, 149, 0.69);
+    border-radius: 50%;
+    width: 31px;
+    height: 32px;
+    color: white;
+}
+.social_icon a i:hover {
+    color: rgb(66, 168, 240);
+    transition: all 0.3s ease 0s;
+}
+/*---------- Banner ----------*/
+.slider {}
+.slide {
+    width: 1803px;
+    height: 600px;
+    padding: 50px;
+}
+.sCard {
+    background: white; 
+    width: 300px; 
+    height: 500px; 
+    padding: 25px; 
+    margin: 0px 0px 0px 330px; 
+}
+.sCard h1 { 
+    font-size: 30px; 
+    color: rgba(133, 121, 121, 0.95); 
+    margin: 0px 0px 10px; 
+}
+.sCard p { 
+    margin: 30px 0px 70px; 
+    line-height: 28px; 
+    font-size: 17px; 
+    font-family: sans-serif; 
+}
+.sCard button { 
+    padding: 10px; 
+    background: rgb(19, 127, 204); 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+}
+.sCard button:hover { 
+    background: rgb(74, 161, 223); 
+}
+.backOne { 
+    background-image: url("../images/slider/slider-1.jpg"); 
+}
+.backTwo { 
+    background-image: url("../images/slider/slider-2.jpg"); 
+}
+.backThree { 
+    background-image: url("../images/slider/slider-3.jpg"); 
+}
+/*---------- Welcome ----------*/
+.well { 
+    font-family: sans-serif; 
+    background: white; 
+    text-align: center; 
+    padding: 0px 0px 50px; 
+}
+.message {}
+.message h1 { 
+    font-size: 40px; 
+    font-family: Jura, sans-serif; 
+}
+.message h2 { 
+    font-family: "Didact Gothic", sans-serif; 
+    font-size: 31px; 
+}
+.wCard_part { 
+    display: inline-flex; 
+    margin: 20px 0px; 
+}
+.well_card { 
+    width: 250px; 
+    margin: 0px 0px 0px 20px; 
+    padding: 20px; 
+}
+.well_card i { 
+    font-size: 45px; 
+    color: rgb(15, 117, 189); 
+    padding: 20px; 
+}
+.well_card h1 { 
+    color: rgb(15, 117, 189); 
+    margin: 3px 0px 20px; 
+    font-size: 20px; 
+}
+.well_card p { 
+    font-size: 15px; 
+}
+.well p { 
+    font-size: 15px; 
+}
+.well p a { 
+    color: rgb(15, 117, 189); 
+}
+/*---------- Offer ----------*/
+.offer {
+    background: rgb(241, 241, 241);
+    text-align: center;
+}
+.off_msg {
+    padding: 45px 0px 35px 0px;
+}
+.off_msg h1 {
+    font-size: 45px;
+}
+.off_msg h2 {
+    font-size: 28px;
+}
+.offCard_pard {
+    width: 1300px;
+    display: inline-flex;
+    margin: 0px 0px 50px 0px;
+    color: white;
+}
+.lomba {
+    width: 300px;
+    height: 600px;
+    text-align: left;
+    background-image: url(../images/offer/off_card-1.jpg);
+    background-size: 100%;
+    margin: 0px 0px 0px 63px;
+}
+.blur {
+    background: rgb(0 0 0 / 42%);
+    padding: 15px 0px 15px 15px;
+}
+.blur h1 {}
+.blur p {}
+.lomba_site {
+    margin: 0px -455px 0px -449px;
+}
+.upor {
+    display: inline-flex;
+}
+.upor_card {
+    width: 300px;
+    height: 288px;
+    background-image: url(../images/offer/off_card-2.jpg);
+    background-size: 100%;
+    margin: 0px 25px 0px 25px;
+    text-align: left;
+}
+.upor_card2 {
+    width: 600px;
+    height: 288px;
+    background-image: url(../images/offer/off_card-3.jpg);
+    background-size: 100%;
+    text-align: left;
+}
+.nis {
+    display: inline-flex;
+}
+.nis_card {
+    width: 300px;
+    height: 288px;
+    margin: 25px 0px 0px 25px;
+    background-image: url(../images/offer/off_card-4.jpg);
+    background-size: 100%;
+    text-align: left;
+}
+.nis_card2 {
+    background-image: url(../images/offer/off_card-5.jpg);
+    background-size: 100%;
+    margin: 25px 0px 0px 25px;
+    width: 288px;
+    height: 288px;
+    text-align: left;
+}
+.bg6 {
+    background-image: url(../images/offer/off_card-6.jpg);
+    background-size: 100%;
+}
+/*---------- News ----------*/
+.news { 
+    background: white; 
+    text-align: center; 
+}
+.news h1 { 
+    font-size: 45px; 
+    font-family: sans-serif; 
+    padding: 30px; 
+    font-weight: 100; 
+    color: rgba(138, 125, 125, 0.88); 
+}
+.nCard_part { 
+    margin: 0px 0px 20px; 
+    display: inline-flex; 
+}
+.news_card {
+    width: 335px;
+    padding: 15px;
+}
+.news_card img {
+    width: 300px;
+}
+.news_card i { 
+    color: rgb(15, 117, 189); 
+    margin: 15px 0px 0px -200px; 
+}
+.date { 
+    display: inline; 
+    margin-left: 5px !important; }
+.news_card p { 
+    margin: 5px 0px 0px -17px; 
+    font-family: sans-serif; 
+}
+.reviwe { }
+.slider { }
+.slide2 { 
+    width: 1803px; 
+    height: 300px; 
+    background: rgb(15, 117, 189); 
+    color: white; 
+    text-align: center; 
+}
+.slide2 h1 { 
+    font-size: 25px; 
+    font-family: sans-serif; 
+    font-weight: 50; 
+    margin: 30px 0px 55px; 
+    padding: 50px 400px 0px; 
+}
+.slide2 p { 
+    margin: 30px 0px; 
+    font-size: 20px; 
+    line-height: 32px; 
+}
+.team {
+    margin-top: 80px;
+}
+.team h1 {
+    text-align: center;
+    font-size: 55px; padding: 0px 0px 30px; }
+.tCart_part { display: inline-flex; }
+.team_card {
+    text-align: center;
+    width: 300px;
+    background: white;
+    margin: 0px 0px 50px 200px;
+    box-shadow: 2px 2px 10px #4AA1DF;
+    border-radius: 10px;
+}
+.team_card img {
+    width: 300px;
+    border-radius: 10px;
+    margin: 0px 0px -15px 0px;
+}
+.team_card h2 {
+    color: #56bed5;
+    font-size: 27px;
+    background: #f8d78d !important;
+    line-height: 45px;
+    border-radius: 10px;
+    margin: 0px 0px -15px 0px;
+    padding: 15px 0px 12px 0px;
+}
+.team_card h3 {
+    font-size: 18px;
+    color: #f04cd4;
+    background: #8fff7a;
+    border-radius: 10px;
+    margin-bottom: -18px;
+    padding: 5px 0px 26px 0px;
+}
+.team_card p {
+    padding: 10px 15px 20px;
+    color: #af47f0;
+    background: #56efff;
+    border-radius: 10px;
+}
+.tButton_part {
+    display: inline-flex;
+    color: #4AA1DF;
+    background: #ff88ae;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: -15px;
+}
+.team_button {
+    margin: 10px 0px 10px 25px;
+    border: none;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+}
+.team_button i {
+    font-size: 30px;
+}
+.owl-nav {
+    font-size: 50px;
+    margin: 0px 0px 0px 20px;
+}
+span {
+    margin-right: 1830px !important;
+}
+.footer {
+    text-align: center;
+    border-top: 2px solid #00000021;
+    padding: 40px 0px 40px 0px;
+}
+.footer_card {
+    display: inline-flex;
+}
+.fCard {
+    width: 200px;
+    text-align: left;
+}
+.fCard h3 {
+    margin: 0px 0px 18px 0px;
+}
+.fCard p {}
+.fCard p a {
+    text-decoration: none;
+}
+.fNav {
+    text-align: center;
+    background: #4A4C4E;
+    padding: 30px 0px 10px 0px;
+}
+.fNav nav {}
+.fNav nav ul{}
+.fNav nav ul li {
+    display: inline;
+}
+.fNav nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    border-right: 2px solid #c5b1b1;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.fNav nav ul li a:hover { 
+    color: rgb(66, 168, 240); 
+    transition: all 0.3s ease 0s; 
+}
+.fNav p {
+    color: #ffffff7d;
+    padding: 35px 0px 0px 0px;
+}
